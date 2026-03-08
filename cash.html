@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="cash.css">
+</head>
+
+<body>
+    <!-- title -->
+    <div class="container">
+    <h1 id="top">Cash Register</h1>
+    <!-- instructions -->
+    <section class="instructions">
+        <p>Enter the number of items you want to scan, click Scan Items to enter prices, then Show Total to view your total. Reset to clear inputs.</p>
+    </section>
+    <!-- user input -->
+    <section class="user-input">
+        <label for="itemCount">Enter number of items:</label>
+        <input type="number" id="itemCount" min="1">
+    </section>
+    <!-- buttons -->
+    <section class="buttons-area">
+        <button id="btnScan">Scan Items</button>
+        <button id="btnTotal">Show Total</button>
+        <button id="btnReset">Reset</button>
+    </section>
+    <!-- display area -->
+    <section class="display-area">
+        <h2>Scanned Items:</h2>
+        <ul id="itemList"></ul>
+    </section>
+    <!-- total cost area -->
+    <section class="total-area">
+        <h2>Total Cost:</h2>
+        <p id="totalOutput">$0.00</p>
+    </section>
+
+    <footer>
+        <a href="#top">Top of Page</a>
+    </footer>
+    </div>
+
+    <script src="cash.js"></script>
+</body>
+</html>

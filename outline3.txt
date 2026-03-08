@@ -1,0 +1,27 @@
+Outline
+    Title
+        - Cash Register
+
+    Instructions
+        - Explain input and buttons
+
+    Input
+        - type in number of items
+
+    Buttons
+        - scan items, show total, reset
+
+    Item cost list
+        - list of cost of each item, item numbered
+
+    Total Cost
+        - calculated cost 
+
+    Footer
+        - top of page link
+
+Reflection
+1.  The basic layout did not change. The order of the items already made sense and nothing needed to be added or removed. I did change the type of input for the input box so it would look better. 
+2.  The hardest part to implement correctly was the input verification. I wanted to account for if a user entered a letter or any other character besides a number, or a negative number. 
+3.  I had to work on getting the cancel option to actually cancel out of the input request when putting in the price of an item and reset. 
+    It was stuck in a loop where hitting cancel would just tell you the input was invalid and to reenter the price of the item instead of actually cancelling. 
